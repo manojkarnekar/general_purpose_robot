@@ -1,0 +1,10 @@
+# Default initial positions for v2_p_robot's ros2_control fake system
+
+initial_positions:
+  motor1_joint: 0
+  motor2_joint: 0
+  motor3_joint: 0
+  motor5_joint: 0
+  motor6_joint: 0
+  motor7_joint: 0
+  torso_joint: 0
