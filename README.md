@@ -97,8 +97,7 @@ To disable the GUI and use a headless joint state publisher instead:
 ```bash
 ros2 launch v2_p_robot_description display.launch.py gui:=false
 ```
-
-https://github.com/manojkarnekar/general_purpose_robot/blob/master/media/sim.gif
+![RViz Demo](media/sim.gif)
 
 ---
 
@@ -131,7 +130,7 @@ Example — spawn in a maze world without teleop:
 ros2 launch v2_p_robot_description gazebo.launch.py world:=maze teleop_enabled:=false
 ```
 
-https://github.com/manojkarnekar/general_purpose_robot/blob/master/media/sim1.gif
+![Gazebo Demo](media/sim1.gif)
 
 ---
 
@@ -148,7 +147,7 @@ In RViz, use the **MotionPlanning** panel to:
 - Plan and execute trajectories
 - Move to named states (`zero`, `home`) from the **Goal State** dropdown
 
-https://github.com/manojkarnekar/general_purpose_robot/blob/master/media/sim2.gif
+![MoveIt Demo](media/sim2.gif)
 
 ---
 
