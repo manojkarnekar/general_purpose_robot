@@ -1,4 +1,4 @@
-# V2 P-Robot — ROS 2 Description & MoveIt Configuration
+# General purpose robot — ROS 2 Description & MoveIt Configuration
 
 A general-purpose mobile manipulator robot built in ROS 2, featuring a 4-wheeled differential-drive base with an onboard robotic arm, a torso lift, and a LiDAR sensor. The project includes full URDF/Xacro description, Gazebo simulation, and MoveIt 2 motion planning.
 
@@ -98,6 +98,8 @@ To disable the GUI and use a headless joint state publisher instead:
 ros2 launch v2_p_robot_description display.launch.py gui:=false
 ```
 
+https://github.com/your-username/your-repo/raw/main/media/rviz_demo.mp4
+
 ---
 
 ### 2. Simulate in Gazebo
@@ -129,6 +131,8 @@ Example — spawn in a maze world without teleop:
 ros2 launch v2_p_robot_description gazebo.launch.py world:=maze teleop_enabled:=false
 ```
 
+https://github.com/your-username/your-repo/raw/main/media/gazebo_demo.mp4
+
 ---
 
 ### 3. MoveIt 2 Motion Planning (Demo Mode)
@@ -143,6 +147,8 @@ In RViz, use the **MotionPlanning** panel to:
 - Set a goal pose for the `arm` planning group
 - Plan and execute trajectories
 - Move to named states (`zero`, `home`) from the **Goal State** dropdown
+
+https://github.com/your-username/your-repo/raw/main/media/moveit_demo.mp4
 
 ---
 
